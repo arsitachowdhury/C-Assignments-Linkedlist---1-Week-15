@@ -1,0 +1,11 @@
+(1)In a singly linked list, deletion of data requires modification of how many pointers?
+1. 1
+2. 2
+3. 3
+4. Depends upon the node being deleted.
+
+Answer-->
+
+When we delete a node, we update the pointer of the previous node to point to the next node in the list. The node to be deleted is effectively skipped over, and no other pointers are modified.
+
+In a singly linked list, deletion of a node typically requires the modification of 1 pointer.
